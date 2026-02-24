@@ -43,8 +43,8 @@ export default function Login() {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             margin: '0 auto 16px', fontSize: 28
           }}>⚖️</div>
-          <h1 style={{ color: '#1a1a2e', fontSize: 22, fontWeight: 700 }}>Sistema de Tutelas</h1>
-          <p style={{ color: '#666', fontSize: 13, marginTop: 4 }}>Entidad de Salud</p>
+          <h1 style={{ color: '#1a1a2e', fontSize: 22, fontWeight: 700 }}>Sistema de Gestión de Tutelas</h1>
+          <p style={{ color: '#666', fontSize: 13, marginTop: 4 }}>Farmacia Institucional S.A.S</p>
         </div>
 
         <form onSubmit={handleSubmit}>
@@ -100,14 +100,7 @@ export default function Login() {
           </button>
         </form>
 
-        <div style={{
-          marginTop: 24, padding: '14px', background: '#f0f6ff', borderRadius: 8,
-          fontSize: 12, color: '#555'
-        }}>
-          <strong>Demo:</strong><br />
-          Admin: admin / Admin123!<br />
-          Visualizador: visualizador / Visual123!
-        </div>
+        
       </div>
     </div>
   );
